@@ -158,3 +158,6 @@ For pilot deployments, research collaboration, or enterprise partnerships, pleas
 ## Legal Notice
 
 **© 2026 WarBees-AI. All rights reserved.**
+
+This repository and its contents are proprietary and confidential.  
+Unauthorized copying, modification, distribution, or use of this code, in whole or in part, is strictly prohibited without prior written permission from WarBees-AI.
