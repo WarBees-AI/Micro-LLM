@@ -79,7 +79,82 @@ Micro-LLM/
 ├─ model-distillation/       # Knowledge distillation methods
 ├─ mllm/                     # Multimodal Large Language Models
 └─ README.md
-```text
+```
+
+---
+
+## 5. Technical Scope
+
+### 5.1 LLM & NLP Techniques
+- Transformer-based language models  
+- Instruction tuning and supervised fine-tuning (SFT)  
+- LoRA / QLoRA / PEFT  
+- Retrieval-Augmented Generation (RAG)  
+- Knowledge grounding and context control  
+
+### 5.2 Agent-Based Reasoning
+- LLM agents (ReAct, Plan-and-Execute)  
+- Tool calling and tool orchestration  
+- Multi-step reasoning and decision pipelines  
+- Agent workflows with state and memory  
+
+### 5.3 Optimization & Deployment
+- Low-bit quantization (INT4)  
+- GPU memory optimization  
+- Efficient batching and inference pipelines  
+- Edge deployment strategies  
+
+---
+
+## 6. Safety, Reliability, and Guardrails
+
+Micro-LLM places strong emphasis on **trustworthy generation**, especially for safety-critical scenarios:
+
+- Policy-based response constraints  
+- Template-driven alert generation  
+- Retrieval grounding to reduce hallucination  
+- Controlled decoding and output validation  
+- Explicit separation between reasoning and final output  
+
+This design makes Micro-LLM suitable for **real-world operational environments**, not just experimental demos.
+
+---
+
+## 7. Target Use Cases
+
+- Edge-based security and safety alert systems  
+- Offline AI assistants in low-connectivity regions  
+- IoT and smart infrastructure monitoring  
+- Multilingual alerting and notification systems  
+- Research on agentic RAG and guarded LLM deployment  
+- Prototyping secure, controllable LLM systems  
+
+---
+
+## 8. Related Work
+
+- **RAISE-LLM**  
+  *A Risk-Aware Introspective Self-Explaining LLM framework*  
+  https://github.com/Miraj-Rahman-AI/RAISE-LLM  
+
+Micro-LLM can be seen as a **practical, edge-focused complement** to broader safety-aligned LLM research.
+
+---
 
 
 
+## Organization & Contact
+
+**WarBees-AI** builds secure, intelligent, and trustworthy AI systems for real-world deployment, with a focus on edge-AI safety and security platforms for emerging markets.
+
+- 🌐 Website: https://warbees-ai.github.io/
+- 📧 Contact: warbeesai@outlook.com
+- 📍 Location: China
+
+For pilot deployments, research collaboration, or enterprise partnerships, please contact us via email.
+
+---
+
+## Legal Notice
+
+**© 2026 WarBees-AI. All rights reserved.**
